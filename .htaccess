@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^index$ index.php
+RewriteRule ^category/([0-9]+)$ index.php?category_id=$1
+RewriteRule ^tag/([a-zA-Z0-9]+)$ index.php?post_tag=$1
+RewriteRule ^author/([0-9]+)$ index.php?author_id=$1
+RewriteRule ^post/([0-9]+)$ post.php?post_id=$1
+RewriteRule ^routing$ helper/routing.php
+RewriteRule ^admin/$ admin/dashboard.php
+RewriteRule ^admin/posts$ admin/posts.php
+RewriteRule ^admin/posts/insert$ admin/includes/admin-routing.php
