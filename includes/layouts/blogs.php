@@ -43,7 +43,7 @@
             for($j = 0; $j < count($tag); $j++){
                 $tag[$j]=trim($tag[$j]);
                 echo<<<TAG
-<a href="http://localhost/oop-blog/tag/{$tag[$j]}" class="btn btn-primary float-right mr-sm-1">{$tag[$j]}</a>
+<a href="http://localhost/cms_blog/tag/{$tag[$j]}" class="btn btn-primary float-right mr-sm-1">{$tag[$j]}</a>
 TAG;
 }
             ?>

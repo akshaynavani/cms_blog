@@ -56,7 +56,7 @@
                         for($i=0;$i<$categories_count;$i=$i+2){
                             echo<<<CAT
 <li>
-<a href="http://localhost/oop-blog/category/{$result[$i]['category_id']}">{$result[$i]['category_name']}</a>
+<a href="http://localhost/cms_blog/category/{$result[$i]['category_id']}">{$result[$i]['category_name']}</a>
 </li>
 CAT;
                         }
@@ -69,7 +69,7 @@ CAT;
                         for($i=1;$i<$categories_count;$i=$i+2){
                             echo<<<CAT
 <li>
-<a href="http://localhost/oop-blog/category/{$result[$i]['category_id']}">{$result[$i]['category_name']}</a>
+<a href="http://localhost/cms_blog/category/{$result[$i]['category_id']}">{$result[$i]['category_name']}</a>
 </li>
 CAT;
                         }
